@@ -1,0 +1,727 @@
+1. C:\Users\medianet\Documents>ipconfig
+Windows IP Configuration
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::845c:1ae4:b2b2:48c4%10
+   IPv4 Address. . . . . . . . . . . : 10.1.32.102
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.1.32.1
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::3450:301d:fdd0:d322%13
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Tunnel adapter isatap.{31E88CBA-DC08-4349-B507-AFBC560A306F}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter isatap.{E1573412-0956-499E-A0D4-8CEC6C68B3C1}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+2. C:\Users\medianet\Documents>mkdir teknologi
+C:\Users\medianet\Documents>cd teknologi
+C:\Users\medianet\Documents\teknologi>
+
+3. C:\Users\medianet\Documents>time
+The current time is: 14:31:15.92
+Enter the new time:
+untuk mengganti jam pada sebuah PC
+
+4. C:\Users\medianet\Documents>cd ..
+C:\Users\medianet>
+
+5. C:\Users\medianet\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2696-95B7
+
+ Directory of C:\Users\medianet\Documents
+
+02/18/2020  02:26 PM    <DIR>          .
+02/18/2020  02:26 PM    <DIR>          ..
+06/18/2019  02:18 PM               966 10-1.c
+05/22/2019  12:39 AM                34 4.c
+05/22/2019  12:39 AM               406 4.o
+03/27/2019  01:36 AM             1,216 aku.c
+05/14/2019  07:56 AM           241,105 aku.exe
+03/27/2019  01:36 AM             2,230 aku.o
+03/26/2019  08:04 AM               645 coba.c
+05/14/2019  07:56 AM           240,466 coba.exe
+03/26/2019  08:04 AM             1,262 coba.o
+10/06/2018  10:45 PM    <DIR>          Custom Office Templates
+09/04/2019  08:43 AM    <DIR>          GIS DataBase
+02/18/2020  02:26 PM    <DIR>          informasi
+02/25/2017  07:26 PM    <DIR>          lowpolydeer
+06/22/2019  01:46 AM               955 percobaan.c
+06/22/2019  12:58 AM            30,534 percobaan.exe
+06/22/2019  12:58 AM             1,771 percobaan.o
+09/20/2019  02:22 PM    <DIR>          Python Scripts
+04/10/2019  06:18 AM             2,777 simpus_kelas_e.sql
+04/10/2019  06:20 AM    <DIR>          simpus_kelas_f
+04/10/2019  07:21 AM             1,785 simpus_kelas_f.sql
+02/18/2020  02:21 PM    <DIR>          sistem
+10/06/2018  09:40 PM    <DIR>          SPSSInc
+02/18/2020  02:26 PM    <DIR>          teknologi
+03/16/2019  01:30 AM               805 test.c
+03/19/2019  03:52 PM           241,120 test.exe
+03/15/2019  09:50 PM             1,652 test.o
+03/12/2019  01:38 AM               989 tugas.c
+03/19/2019  03:52 PM           241,217 tugas.exe
+03/15/2019  07:28 PM             1,652 tugas.o
+03/26/2019  07:42 AM               706 tugas1.c
+05/14/2019  07:56 AM           240,320 tugas1.exe
+03/26/2019  08:57 AM             1,430 tugas1.o
+03/26/2019  07:45 AM             1,394 tugas2.c
+05/14/2019  07:56 AM           241,009 tugas2.exe
+03/26/2019  08:57 AM             2,222 tugas2.o
+05/21/2019  08:36 AM               228 Untitled1.c
+12/02/2019  10:08 AM    <DIR>          Visual Studio 2012
+02/26/2019  11:54 AM        45,918,843 Windows6.1-KB3033929-x64.msu
+04/16/2019  09:27 AM            15,903 xdfgdfg.jpg
+              29 File(s)     47,435,642 bytes
+              12 Dir(s)  135,140,663,296 bytes free
+6. C:\Users\medianet\Documents>whoami
+fastmedianet-pc\medianet
+7. C:\Users\medianet\Documents>wmic context
+NAMESPACE             : root\cimv2
+ROLE                  : root\cli
+NODE(S)               : FASTMEDIANET-PC
+IMPLEVEL              : IMPERSONATE
+[AUTHORITY            : N/A]
+AUTHLEVEL             : PKTPRIVACY
+LOCALE                : ms_409
+PRIVILEGES            : ENABLE
+TRACE                 : OFF
+RECORD                : N/A
+INTERACTIVE           : OFF
+FAILFAST              : OFF
+OUTPUT                : STDOUT
+APPEND                : STDOUT
+USER                  : N/A
+AGGREGATE             : ON
+
+8. C:\Users\medianet\Documents>vol
+ Volume in drive C has no label.
+ Volume Serial Number is 2696-95B7
+
+9. C:\Users\medianet\Documents>color 2 
+menjadikan tulisan pada cmd berwarna hijau
+
+10. C:\Users\medianet\Documents>chkdsk d:
+Access Denied as you do not have sufficient privileges.
+You have to invoke this utility running in elevated mode.
+
+11. C:\Users\medianet\Documents>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+
+12. C:\Users\medianet\Documents>netstat -r
+===========================================================================
+Interface List
+ 10...fc aa 14 42 12 a7 ......Realtek PCIe GBE Family Controller
+ 13...08 00 27 00 e0 ec ......VirtualBox Host-Only Ethernet Adapter
+  1...........................Software Loopback Interface 1
+ 14...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter
+ 11...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface
+ 15...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #2
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0        10.1.32.1      10.1.32.102    266
+        10.1.32.0    255.255.255.0         On-link       10.1.32.102    266
+      10.1.32.102  255.255.255.255         On-link       10.1.32.102    266
+      10.1.32.255  255.255.255.255         On-link       10.1.32.102    266
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+     192.168.56.0    255.255.255.0         On-link      192.168.56.1    276
+     192.168.56.1  255.255.255.255         On-link      192.168.56.1    276
+   192.168.56.255  255.255.255.255         On-link      192.168.56.1    276
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    306
+        224.0.0.0        240.0.0.0         On-link      192.168.56.1    276
+        224.0.0.0        240.0.0.0         On-link       10.1.32.102    266
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+  255.255.255.255  255.255.255.255         On-link      192.168.56.1    276
+  255.255.255.255  255.255.255.255         On-link       10.1.32.102    266
+===========================================================================
+Persistent Routes:
+  Network Address          Netmask  Gateway Address  Metric
+          0.0.0.0          0.0.0.0        10.1.32.1  Default
+===========================================================================
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    306 ::1/128                  On-link
+ 13    276 fe80::/64                On-link
+ 10    266 fe80::/64                On-link
+ 13    276 fe80::3450:301d:fdd0:d322/128
+                                    On-link
+ 10    266 fe80::845c:1ae4:b2b2:48c4/128
+                                    On-link
+  1    306 ff00::/8                 On-link
+ 13    276 ff00::/8                 On-link
+ 10    266 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+13. C:\Users\medianet\Documents>Compact
+
+ Listing C:\Users\medianet\Documents\
+ New files added to this directory will not be compressed.
+
+      966 :       966 = 1.0 to 1   10-1.c
+       34 :        34 = 1.0 to 1   4.c
+      406 :       406 = 1.0 to 1   4.o
+     1216 :      1216 = 1.0 to 1   aku.c
+   241105 :    241105 = 1.0 to 1   aku.exe
+     2230 :      2230 = 1.0 to 1   aku.o
+      645 :       645 = 1.0 to 1   coba.c
+   240466 :    240466 = 1.0 to 1   coba.exe
+     1262 :      1262 = 1.0 to 1   coba.o
+        0 :         0 = 1.0 to 1   coba.txt
+        0 :         0 = 1.0 to 1   Custom Office Templates
+        0 :         0 = 1.0 to 1   GIS DataBase
+        0 :         0 = 1.0 to 1   informasi
+        0 :         0 = 1.0 to 1   lowpolydeer
+      955 :       955 = 1.0 to 1   percobaan.c
+    30534 :     30534 = 1.0 to 1   percobaan.exe
+     1771 :      1771 = 1.0 to 1   percobaan.o
+        0 :         0 = 1.0 to 1   Python Scripts
+     2777 :      2777 = 1.0 to 1   simpus_kelas_e.sql
+        0 :         0 = 1.0 to 1   simpus_kelas_f
+     1785 :      1785 = 1.0 to 1   simpus_kelas_f.sql
+        0 :         0 = 1.0 to 1   sistem
+        0 :         0 = 1.0 to 1   SPSSInc
+        0 :         0 = 1.0 to 1   teknologi
+      805 :       805 = 1.0 to 1   test.c
+   241120 :    241120 = 1.0 to 1   test.exe
+     1652 :      1652 = 1.0 to 1   test.o
+      989 :       989 = 1.0 to 1   tugas.c
+   241217 :    241217 = 1.0 to 1   tugas.exe
+     1652 :      1652 = 1.0 to 1   tugas.o
+      706 :       706 = 1.0 to 1   tugas1.c
+   240320 :    240320 = 1.0 to 1   tugas1.exe
+     1430 :      1430 = 1.0 to 1   tugas1.o
+     1394 :      1394 = 1.0 to 1   tugas2.c
+   241009 :    241009 = 1.0 to 1   tugas2.exe
+     2222 :      2222 = 1.0 to 1   tugas2.o
+      228 :       228 = 1.0 to 1   Untitled1.c
+        0 :         0 = 1.0 to 1   Visual Studio 2012
+ 45918843 :  45918843 = 1.0 to 1   Windows6.1-KB3033929-x64.msu
+    15903 :     15903 = 1.0 to 1   xdfgdfg.jpg
+
+Of 46 files within 1 directories
+0 are compressed and 46 are not compressed.
+47,436,044 total bytes of data are stored in 47,436,044 bytes.
+The compression ratio is 1.0 to 1.
+
+14. C:\Users\medianet\Documents>gpresult /z
+
+Microsoft (R) Windows (R) Operating System Group Policy Result tool v2.
+Copyright (C) Microsoft Corp. 1981-2001
+
+Created On 2/18/2020 at 3:15:10 PM
+
+
+RSOP data for FASTMEDIANET-PC\medianet on FASTMEDIANET-PC : Logging Mod
+-----------------------------------------------------------------------
+
+OS Configuration:            Standalone Workstation
+OS Version:                  6.1.7601
+Site Name:                   N/A
+Roaming Profile:             N/A
+Local Profile:               C:\Users\medianet
+Connected over a slow link?: No
+
+
+USER SETTINGS
+--------------
+
+    Last time Group Policy was applied: 2/18/2020 at 3:14:34 PM
+    Group Policy was applied from:      N/A
+    Group Policy slow link threshold:   500 kbps
+    Domain Name:                        FASTMEDIANET-PC
+    Domain Type:                        <Local Computer>
+
+    Applied Group Policy Objects
+    -----------------------------
+        N/A
+
+    The following GPOs were not applied because they were filtered out
+    -------------------------------------------------------------------
+        Local Group Policy
+            Filtering:  Not Applied (Empty)
+
+    The user is a part of the following security groups
+    ---------------------------------------------------
+        None
+        Everyone
+        Local account and member of Administrators group
+        BUILTIN\Administrators
+        BUILTIN\Users
+        NT AUTHORITY\INTERACTIVE
+        CONSOLE LOGON
+        NT AUTHORITY\Authenticated Users
+        This Organization
+        Local account
+        LOCAL
+        NTLM Authentication
+        High Mandatory Level
+
+    The user has the following security privileges
+    ----------------------------------------------
+
+
+    Resultant Set Of Policies for User
+    -----------------------------------
+
+        Software Installations
+        ----------------------
+            N/A
+
+        Logon Scripts
+        -------------
+            N/A
+
+        Logoff Scripts
+        --------------
+            N/A
+
+        Public Key Policies
+        -------------------
+            N/A
+
+        Administrative Templates
+        ------------------------
+            N/A
+
+        Folder Redirection
+        ------------------
+            N/A
+
+        Internet Explorer Browser User Interface
+        ----------------------------------------
+            N/A
+
+        Internet Explorer Connection
+        ----------------------------
+            N/A
+
+        Internet Explorer URLs
+        ----------------------
+            N/A
+
+        Internet Explorer Security
+        --------------------------
+            N/A
+
+        Internet Explorer Programs
+        --------------------------
+            N/A
+15. C:\Users\medianet\Documents>cmdkey
+
+Creates, displays, and deletes stored user names and passwords.
+
+The syntax of this command is:
+
+CMDKEY [{/add | /generic}:targetname {/smartcard | /user:username {/pass{:passwo
+rd}}} | /delete{:targetname | /ras} | /list{:targetname}]
+
+Examples:
+
+  To list available credentials:
+     cmdkey /list
+     cmdkey /list:targetname
+
+  To create domain credentials:
+     cmdkey /add:targetname /user:username /pass:password
+     cmdkey /add:targetname /user:username /pass
+     cmdkey /add:targetname /user:username
+     cmdkey /add:targetname /smartcard
+
+  To create generic credentials:
+     The /add switch may be replaced by /generic to create generic credentials
+
+  To delete existing credentials:
+     cmdkey /delete:targetname
+
+  To delete RAS credentials:
+     cmdkey /delete /ras
+
+16. C:\Users\medianet\Documents>auditpol
+Usage: AuditPol command [<sub-command><options>]
+
+
+Commands (only one command permitted per execution)
+  /?               Help (context-sensitive)
+  /get             Displays the current audit policy.
+  /set             Sets the audit policy.
+  /list            Displays selectable policy elements.
+  /backup          Saves the audit policy to a file.
+  /restore         Restores the audit policy from a file.
+  /clear           Clears the audit policy.
+  /remove          Removes the per-user audit policy for a user account.
+  /resourceSACL    Configure global resource SACLs
+
+
+Use AuditPol <command> /? for details on each command
+
+17. C:\Users\medianet\Documents>driverquery
+
+Module Name  Display Name           Driver Type   Link Date
+============ ====================== ============= ======================
+1394ohci     1394 OHCI Compliant Ho Kernel        11/20/2010 5:44:56 PM
+ACPI         Microsoft ACPI Driver  Kernel        11/20/2010 4:19:16 PM
+AcpiPmi      ACPI Power Meter Drive Kernel        11/20/2010 4:30:42 PM
+adp94xx      adp94xx                Kernel        12/6/2008 6:54:42 AM
+adpahci      adpahci                Kernel        5/2/2007 12:30:09 AM
+adpu320      adpu320                Kernel        2/28/2007 7:04:15 AM
+AFD          Ancillary Function Dri Kernel        11/20/2010 4:23:27 PM
+agp440       Intel AGP Bus Filter   Kernel        7/14/2009 6:38:43 AM
+aliide       aliide                 Kernel        7/14/2009 6:19:47 AM
+amdide       amdide                 Kernel        7/14/2009 6:19:49 AM
+AmdK8        AMD K8 Processor Drive Kernel        7/14/2009 6:19:25 AM
+amdkmdag     amdkmdag               Kernel        8/31/2013 7:02:50 AM
+amdkmdap     amdkmdap               Kernel        8/31/2013 5:32:32 AM
+AmdPPM       AMD Processor Driver   Kernel        7/14/2009 6:19:25 AM
+amdsata      amdsata                Kernel        3/19/2010 7:45:17 AM
+amdsbs       amdsbs                 Kernel        3/21/2009 1:36:03 AM
+amdxata      amdxata                Kernel        3/19/2010 11:18:18 PM
+AppID        AppID Driver           Kernel        9/2/2016 10:02:28 PM
+AppleCharger AppleCharger           Kernel        10/28/2013 8:59:21 AM
+arc          arc                    Kernel        5/25/2007 4:27:55 AM
+arcsas       arcsas                 Kernel        1/15/2009 2:27:37 AM
+AsyncMac     RAS Asynchronous Media Kernel        7/14/2009 7:10:13 AM
+atapi        IDE Channel            Kernel        7/14/2009 6:19:47 AM
+AtiHDAudioSe AMD Function Driver fo Kernel        7/6/2013 1:10:37 AM
+b06bdrv      Broadcom NetXtreme II  Kernel        2/14/2009 5:18:07 AM
+b57nd60a     Broadcom NetXtreme Gig Kernel        4/26/2009 6:14:55 PM
+Beep         Beep                   Kernel        7/14/2009 7:00:13 AM
+blbdrive     blbdrive               Kernel        7/14/2009 6:35:59 AM
+bowser       Browser Support Driver File System   7/14/2009 6:23:50 AM
+BrFiltLo     Brother USB Mass-Stora Kernel        8/7/2006 8:51:06 AM
+BrFiltUp     Brother USB Mass-Stora Kernel        8/7/2006 8:51:02 AM
+Brserid      Brother MFC Serial Por Kernel        8/7/2006 8:51:11 AM
+BrSerWdm     Brother WDM Serial dri Kernel        8/7/2006 8:51:05 AM
+BrUsbMdm     Brother MFC USB Fax On Kernel        8/7/2006 8:51:00 AM
+BrUsbSer     Brother MFC USB Serial Kernel        8/9/2006 7:11:02 PM
+BTHMODEM     Bluetooth Serial Commu Kernel        7/14/2009 7:06:52 AM
+cdfs         CD/DVD File System Rea File System   7/14/2009 6:19:46 AM
+cdrom        CD-ROM Driver          Kernel        11/20/2010 4:19:20 PM
+circlass     Consumer IR Devices    Kernel        7/14/2009 7:06:34 AM
+CLFS         Common Log (CLFS)      Kernel        7/14/2009 6:19:57 AM
+CmBatt       Microsoft ACPI Control Kernel        7/14/2009 6:31:03 AM
+cmdide       cmdide                 Kernel        7/14/2009 6:19:48 AM
+CNG          CNG                    Kernel        5/11/2016 10:05:01 PM
+Compbatt     Compbatt               Kernel        7/14/2009 6:31:02 AM
+CompositeBus Composite Bus Enumerat Kernel        11/20/2010 5:33:17 PM
+crcdisk      Crcdisk Filter Driver  Kernel        7/14/2009 7:01:14 AM
+CSC          Offline Files Driver   Kernel        11/20/2010 4:27:12 PM
+DfsC         DFS Namespace Client D File System   11/20/2010 4:26:31 PM
+discache     System Attribute Cache Kernel        7/14/2009 6:37:18 AM
+Disk         Disk Driver            Kernel        7/14/2009 6:19:57 AM
+diskpt       diskpt                 Kernel        10/13/2017 5:47:45 PM
+drmkaud      Microsoft Trusted Audi Kernel        7/14/2009 7:06:16 AM
+DXGKrnl      LDDM Graphics Subsyste Kernel        11/20/2010 4:50:50 PM
+ebdrv        Broadcom NetXtreme II  Kernel        12/31/2008 11:29:28 PM
+elxstor      elxstor                Kernel        2/4/2009 5:52:11 AM
+ErrDev       Microsoft Hardware Err Kernel        7/14/2009 6:31:04 AM
+exfat        exFAT File System Driv File System   7/14/2009 6:23:29 AM
+fastfat      FAT12/16/32 File Syste File System   7/14/2009 6:23:28 AM
+fdc          Floppy Disk Controller Kernel        7/14/2009 7:00:54 AM
+FileInfo     File Information FS Mi File System   7/14/2009 6:34:25 AM
+Filetrace    Filetrace              File System   7/14/2009 6:25:40 AM
+flpydisk     Floppy Disk Driver     Kernel        7/14/2009 7:00:54 AM
+FltMgr       FltMgr                 File System   11/20/2010 4:19:24 PM
+FsDepends    File System Dependency File System   7/14/2009 6:26:13 AM
+fvevol       Bitlocker Drive Encryp Kernel        11/20/2010 4:24:06 PM
+gagp30kx     Microsoft Generic AGPv Kernel        7/14/2009 6:38:43 AM
+gdrv         gdrv                   Kernel        3/13/2009 10:22:29 AM
+GVTDrv64     GVTDrv64               Kernel        9/5/2006 2:10:02 PM
+hcw85cir     Hauppauge Consumer Inf Kernel        5/11/2009 3:26:00 PM
+HdAudAddServ Microsoft 1.1 UAA Func Kernel        11/20/2010 5:44:23 PM
+HDAudBus     Microsoft UAA Bus Driv Kernel        11/20/2010 5:43:42 PM
+HidBatt      HID UPS Battery Driver Kernel        7/14/2009 6:31:06 AM
+HidBth       Microsoft Bluetooth HI Kernel        7/14/2009 7:06:52 AM
+HidIr        Microsoft Infrared HID Kernel        7/14/2009 7:06:23 AM
+HidUsb       Microsoft HID Class Dr Kernel        11/20/2010 5:43:49 PM
+HpSAMD       HpSAMD                 Kernel        4/21/2010 1:32:18 AM
+HTTP         HTTP                   Kernel        11/20/2010 4:24:30 PM
+hwpolicy     Hardware Policy Driver Kernel        11/20/2010 4:18:54 PM
+i8042prt     i8042 Keyboard and PS/ Kernel        7/14/2009 6:19:57 AM
+iaStorV      Intel RAID Controller  Kernel        6/11/2010 7:46:19 AM
+igfx         igfx                   Kernel        10/29/2013 4:57:02 AM
+iirsp        iirsp                  Kernel        12/14/2005 4:47:54 AM
+IntcAzAudAdd Service for Realtek HD Kernel        8/27/2013 7:31:56 PM
+intelide     intelide               Kernel        7/14/2009 6:19:48 AM
+intelppm     Intel Processor Driver Kernel        7/14/2009 6:19:25 AM
+IpFilterDriv IP Traffic Filter Driv Kernel        11/20/2010 5:52:19 PM
+IPMIDRV      IPMIDRV                Kernel        11/20/2010 5:04:53 PM
+IPNAT        IP Network Address Tra Kernel        7/14/2009 7:10:03 AM
+IRENUM       IR Bus Enumerator      Kernel        7/14/2009 7:08:59 AM
+isapnp       isapnp                 Kernel        7/14/2009 6:31:08 AM
+iScsiPrt     iScsiPort Driver       Kernel        11/20/2010 5:35:14 PM
+kbdclass     Keyboard Class Driver  Kernel        7/14/2009 6:19:50 AM
+kbdhid       Keyboard HID Driver    Kernel        11/20/2010 5:33:25 PM
+KSecDD       KSecDD                 Kernel        9/2/2016 9:53:56 PM
+KSecPkg      KSecPkg                Kernel        9/2/2016 10:01:42 PM
+ksthunk      Kernel Streaming Thunk Kernel        7/14/2009 7:00:19 AM
+lltdio       Link-Layer Topology Di Kernel        7/14/2009 7:08:50 AM
+LSI_FC       LSI_FC                 Kernel        12/10/2008 5:46:09 AM
+LSI_SAS      LSI_SAS                Kernel        5/19/2009 7:20:23 AM
+LSI_SAS2     LSI_SAS2               Kernel        5/19/2009 7:31:48 AM
+LSI_SCSI     LSI_SCSI               Kernel        4/17/2009 5:13:50 AM
+luafv        UAC File Virtualizatio File System   7/14/2009 6:26:13 AM
+megasas      megasas                Kernel        5/19/2009 8:09:46 AM
+MegaSR       MegaSR                 Kernel        5/19/2009 8:25:54 AM
+MEIx64       Intel(R) Management En Kernel        9/6/2013 1:02:18 AM
+Modem        Modem                  Kernel        7/14/2009 7:10:48 AM
+monitor      Microsoft Monitor Clas Kernel        7/14/2009 6:38:52 AM
+mouclass     Mouse Class Driver     Kernel        7/14/2009 6:19:50 AM
+mouhid       Mouse HID Driver       Kernel        7/14/2009 7:00:20 AM
+mountmgr     Mount Point Manager    Kernel        6/14/2016 9:57:30 PM
+mpio         Microsoft Multi-Path B Kernel        11/20/2010 5:35:38 PM
+mpsdrv       Windows Firewall Autho Kernel        7/14/2009 7:08:25 AM
+MRxDAV       WebDav Client Redirect File System   11/20/2010 4:26:42 PM
+mrxsmb       SMB MiniRedirector Wra File System   9/2/2016 9:55:11 PM
+mrxsmb10     SMB 1.x MiniRedirector File System   9/2/2016 9:54:39 PM
+mrxsmb20     SMB 2.0 MiniRedirector File System   9/2/2016 9:54:37 PM
+msahci       msahci                 Kernel        11/20/2010 5:33:58 PM
+msdsm        Microsoft Multi-Path D Kernel        11/20/2010 5:35:34 PM
+Msfs         Msfs                   File System   7/14/2009 6:19:47 AM
+mshidkmdf    Pass-through HID to KM Kernel        7/14/2009 7:06:24 AM
+msisadrv     msisadrv               Kernel        7/14/2009 6:19:26 AM
+MSKSSRV      Microsoft Streaming Se Kernel        7/14/2009 7:00:18 AM
+MSPCLOCK     Microsoft Streaming Cl Kernel        7/14/2009 7:00:17 AM
+MSPQM        Microsoft Streaming Qu Kernel        7/14/2009 7:00:17 AM
+MsRPC        MsRPC                  Kernel        11/20/2010 4:21:56 PM
+mssmbios     Microsoft System Manag Kernel        7/14/2009 6:31:10 AM
+MSTEE        Microsoft Streaming Te Kernel        7/14/2009 7:00:17 AM
+MTConfig     Microsoft Input Config Kernel        7/14/2009 7:02:08 AM
+Mup          Mup                    File System   7/14/2009 6:23:45 AM
+NativeWifiP  NativeWiFi Filter      Kernel        7/14/2009 7:07:23 AM
+NDIS         NDIS System Driver     Kernel        11/20/2010 4:23:30 PM
+NdisCap      NDIS Capture LightWeig Kernel        7/14/2009 7:08:12 AM
+NdisTapi     Remote Access NDIS TAP Kernel        7/14/2009 7:10:00 AM
+Ndisuio      NDIS Usermode I/O Prot Kernel        11/20/2010 5:50:08 PM
+NdisWan      Remote Access NDIS WAN Kernel        11/20/2010 5:52:32 PM
+NDProxy      NDIS Proxy             Kernel        11/20/2010 5:52:20 PM
+NetBIOS      NetBIOS Interface      File System   7/14/2009 7:09:26 AM
+NetBT        NetBT                  Kernel        11/20/2010 4:23:18 PM
+nfrd960      nfrd960                Kernel        6/7/2006 4:11:48 AM
+Npfs         Npfs                   File System   7/14/2009 6:19:48 AM
+nsiproxy     NSI proxy service driv Kernel        7/14/2009 6:21:02 AM
+Ntfs         Ntfs                   File System   11/20/2010 4:20:57 PM
+Null         Null                   Kernel        7/14/2009 6:19:37 AM
+nvraid       nvraid                 Kernel        3/20/2010 3:59:20 AM
+nvstor       nvstor                 Kernel        3/20/2010 3:45:11 AM
+nv_agp       NVIDIA nForce AGP Bus  Kernel        7/14/2009 6:38:44 AM
+ohci1394     1394 OHCI Compliant Ho Kernel        7/14/2009 7:06:45 AM
+Parport      Parallel port driver   Kernel        7/14/2009 7:00:40 AM
+partmgr      Partition Manager      Kernel        11/20/2010 4:20:00 PM
+pci          PCI Bus Driver         Kernel        11/20/2010 4:19:11 PM
+pciide       pciide                 Kernel        7/14/2009 6:19:49 AM
+pcmcia       pcmcia                 Kernel        7/14/2009 6:31:10 AM
+pcw          Performance Counters f Kernel        7/14/2009 6:19:27 AM
+PEAUTH       PEAUTH                 Kernel        6/15/2016 12:11:06 AM
+PptpMiniport WAN Miniport (PPTP)    Kernel        11/20/2010 5:52:31 PM
+Processor    Processor Driver       Kernel        7/14/2009 6:19:25 AM
+Psched       QoS Packet Scheduler   Kernel        11/20/2010 5:52:18 PM
+pwdrvio      pwdrvio                Kernel        6/16/2009 8:43:45 AM
+pwdspio      pwdspio                Kernel        7/15/2009 10:18:21 AM
+ql2300       ql2300                 Kernel        1/23/2009 6:05:06 AM
+ql40xx       ql40xx                 Kernel        5/19/2009 8:18:11 AM
+QWAVEdrv     QWAVE driver           Kernel        7/14/2009 7:09:48 AM
+RasAcd       Remote Access Auto Con Kernel        7/14/2009 7:10:09 AM
+RasAgileVpn  WAN Miniport (IKEv2)   Kernel        7/14/2009 7:10:24 AM
+Rasl2tp      WAN Miniport (L2TP)    Kernel        11/20/2010 5:52:34 PM
+RasPppoe     Remote Access PPPOE Dr Kernel        7/14/2009 7:10:17 AM
+RasSstp      WAN Miniport (SSTP)    Kernel        7/14/2009 7:10:25 AM
+rdbss        Redirected Buffering S File System   11/20/2010 4:27:51 PM
+rdpbus       Remote Desktop Device  Kernel        7/14/2009 7:17:46 AM
+RDPCDD       RDPCDD                 Kernel        7/14/2009 7:16:34 AM
+RDPDR        Terminal Server Device Kernel        11/20/2010 6:06:41 PM
+RDPENCDD     RDP Encoder Mirror Dri Kernel        7/14/2009 7:16:34 AM
+RDPREFMP     Reflector Display Driv Kernel        7/14/2009 7:16:35 AM
+RDPWD        RDP Winstation Driver  Kernel        11/20/2010 6:04:37 PM
+rdyboost     ReadyBoost             Kernel        11/20/2010 4:43:10 PM
+rspndr       Link-Layer Topology Di Kernel        7/14/2009 7:08:50 AM
+RTL8167      Realtek 8167 NT Driver Kernel        6/17/2014 6:59:14 PM
+s3cap        s3cap                  Kernel        11/20/2010 4:57:33 PM
+sbp2port     SBP-2 Transport/Protoc Kernel        11/20/2010 4:19:21 PM
+scfilter     Smart card PnP Class F Kernel        11/20/2010 5:09:59 PM
+secdrv       Security Driver        Kernel        9/13/2006 8:18:38 PM
+Serenum      Serenum Filter Driver  Kernel        7/14/2009 7:00:33 AM
+Serial       Serial port driver     Kernel        7/14/2009 7:00:40 AM
+sermouse     Serial Mouse Driver    Kernel        7/14/2009 7:00:20 AM
+sffdisk      SFF Storage Class Driv Kernel        7/14/2009 7:01:01 AM
+sffp_mmc     SFF Storage Protocol D Kernel        7/14/2009 7:01:03 AM
+sffp_sd      SFF Storage Protocol D Kernel        11/20/2010 5:34:00 PM
+sfloppy      High-Capacity Floppy D Kernel        7/14/2009 7:01:02 AM
+SiSRaid2     SiSRaid2               Kernel        9/25/2008 1:28:20 AM
+SiSRaid4     SiSRaid4               Kernel        10/2/2008 4:56:04 AM
+Smb          Message-oriented TCP/I Kernel        7/14/2009 7:09:09 AM
+spldr        Security Processor Loa Kernel        5/11/2009 11:56:27 PM
+srv          Server SMB 1.xxx Drive File System   11/20/2010 4:28:05 PM
+srv2         Server SMB 2.xxx Drive File System   11/20/2010 4:27:43 PM
+srvnet       srvnet                 File System   11/20/2010 4:27:20 PM
+stexstor     stexstor               Kernel        2/18/2009 6:03:36 AM
+storflt      Disk Virtual Machine B Kernel        11/20/2010 4:57:30 PM
+storvsc      storvsc                Kernel        11/20/2010 4:57:32 PM
+swenum       Software Bus Driver    Kernel        7/14/2009 7:00:18 AM
+Tcpip        TCP/IP Protocol Driver Kernel        11/20/2010 4:25:52 PM
+TCPIP6       Microsoft IPv6 Protoco Kernel        11/20/2010 4:25:52 PM
+tcpipreg     TCP/IP Registry Compat Kernel        11/20/2010 5:51:48 PM
+TDPIPE       TDPIPE                 Kernel        7/14/2009 7:16:32 AM
+TDTCP        TDTCP                  Kernel        7/14/2009 7:16:32 AM
+tdx          NetIO Legacy TDI Suppo Kernel        11/20/2010 4:21:54 PM
+TermDD       Terminal Device Driver Kernel        11/20/2010 6:03:40 PM
+tssecsrv     Remote Desktop Service Kernel        11/20/2010 6:04:09 PM
+TsUsbFlt     TsUsbFlt               Kernel        11/20/2010 6:07:04 PM
+tunnel       Microsoft Tunnel Minip Kernel        11/20/2010 5:51:50 PM
+uagp35       Microsoft AGPv3.5 Filt Kernel        7/14/2009 6:38:43 AM
+udfs         udfs                   File System   11/20/2010 4:26:11 PM
+uliagpkx     Uli AGP Bus Filter     Kernel        7/14/2009 6:38:48 AM
+umbus        UMBus Enumerator Drive Kernel        11/20/2010 5:44:37 PM
+UmPass       Microsoft UMPass Drive Kernel        7/14/2009 7:06:52 AM
+usbccgp      Microsoft USB Generic  Kernel        11/20/2010 5:44:03 PM
+UsbCharger   UsbCharger             Kernel        10/24/2013 4:26:43 PM
+usbcir       eHome Infrared Receive Kernel        7/14/2009 7:06:36 AM
+usbehci      Microsoft USB 2.0 Enha Kernel        11/20/2010 5:43:54 PM
+usbhub       Microsoft USB Standard Kernel        11/20/2010 5:44:30 PM
+usbohci      Microsoft USB Open Hos Kernel        7/14/2009 7:06:30 AM
+usbprint     Microsoft USB PRINTER  Kernel        7/14/2009 7:38:18 AM
+USBSTOR      USB Mass Storage Drive Kernel        11/20/2010 5:44:05 PM
+usbuhci      Microsoft USB Universa Kernel        7/14/2009 7:06:27 AM
+VBoxDrv      VirtualBox Service     Kernel        12/19/2012 8:48:25 PM
+VBoxNetAdp   VirtualBox Host-Only E Kernel        12/19/2012 8:47:17 PM
+VBoxNetFlt   VirtualBox Bridged Net Kernel        12/19/2012 8:47:16 PM
+VBoxUSBMon   VirtualBox USB Monitor Kernel        12/19/2012 8:47:17 PM
+vdrvroot     Microsoft Virtual Driv Kernel        7/14/2009 7:01:31 AM
+vga          vga                    Kernel        7/14/2009 6:38:47 AM
+VgaSave      VgaSave                Kernel        7/14/2009 6:38:47 AM
+vhdmp        vhdmp                  Kernel        11/20/2010 5:35:36 PM
+viaide       viaide                 Kernel        7/14/2009 6:19:50 AM
+vmbus        Virtual Machine Bus    Kernel        11/20/2010 4:57:29 PM
+VMBusHID     VMBusHID               Kernel        11/20/2010 4:57:13 PM
+volmgr       Volume Manager Driver  Kernel        11/20/2010 4:19:28 PM
+volmgrx      Dynamic Volume Manager Kernel        11/20/2010 4:20:43 PM
+volsnap      Storage volumes        Kernel        11/20/2010 4:20:08 PM
+vsmraid      vsmraid                Kernel        1/31/2009 8:18:57 AM
+VSPerfDrv110 Performance Tools Driv Kernel        7/2/2012 10:25:47 AM
+vwifibus     Virtual WiFi Bus Drive Kernel        7/14/2009 7:07:21 AM
+WacomPen     Wacom Serial Pen HID D Kernel        7/14/2009 7:02:07 AM
+WANARP       Remote Access IP ARP D Kernel        11/20/2010 5:52:36 PM
+Wanarpv6     Remote Access IPv6 ARP Kernel        11/20/2010 5:52:36 PM
+Wd           Wd                     Kernel        7/14/2009 6:19:55 AM
+Wdf01000     Kernel Mode Driver Fra Kernel        7/26/2012 9:25:13 AM
+WfpLwf       WFP Lightweight Filter Kernel        7/14/2009 7:09:26 AM
+WIMMount     WIMMount               File System   7/14/2009 6:29:31 AM
+WinUsb       WinUsb                 Kernel        11/20/2010 5:43:56 PM
+WmiAcpi      Microsoft Windows Mana Kernel        7/14/2009 6:31:02 AM
+ws2ifsl      Winsock IFS Driver     Kernel        7/14/2009 7:10:33 AM
+WudfPf       User Mode Driver Frame Kernel        11/20/2010 5:42:44 PM
+WUDFRd       WUDFRd                 Kernel        11/20/2010 5:43:32 PM
+
+18. C:\Users\medianet\Documents>ping google.com
+
+Pinging google.com [74.125.68.138] with 32 bytes of data:
+Reply from 74.125.68.138: bytes=32 time=21ms TTL=41
+Reply from 74.125.68.138: bytes=32 time=21ms TTL=41
+Reply from 74.125.68.138: bytes=32 time=21ms TTL=41
+Reply from 74.125.68.138: bytes=32 time=21ms TTL=41
+
+Ping statistics for 74.125.68.138:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 21ms, Maximum = 21ms, Average = 21ms
+
+19. C:\Users\medianet\Documents>chcp
+Active code page: 437
+
+20. C:\Users\medianet\Documents>systeminfo
+
+Host Name:                 FASTMEDIANET-PC
+OS Name:                   Microsoft Windows 7 Professional
+OS Version:                6.1.7601 Service Pack 1 Build 7601
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          medianet
+Registered Organization:
+Product ID:                55041-011-1826335-86963
+Original Install Date:     10/4/2018, 11:25:43 PM
+System Boot Time:          2/18/2020, 1:34:39 PM
+System Manufacturer:       Gigabyte Technology Co., Ltd.
+System Model:              To be filled by O.E.M.
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 58 Stepping 9 GenuineInt
+el ~3400 Mhz
+BIOS Version:              American Megatrends Inc. FB, 2/25/2013
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     6,108 MB
+Available Physical Memory: 2,788 MB
+Virtual Memory: Max Size:  12,214 MB
+Virtual Memory: Available: 8,650 MB
+Virtual Memory: In Use:    3,564 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\FASTMEDIANET-PC
+Hotfix(s):                 7 Hotfix(s) Installed.
+                           [01]: KB2664825
+                           [02]: KB2685811
+                           [03]: KB2999226
+                           [04]: KB958488
+                           [05]: KB976902
+                           [06]: KB976932
+                           [07]: KB3185278
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Realtek PCIe GBE Family Controller
+                                 Connection Name: Local Area Connection
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.1.32.102
+                                 [02]: fe80::845c:1ae4:b2b2:48c4
+                           [02]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: VirtualBox Host-Only Network
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.56.1
+                                 [02]: fe80::3450:301d:fdd0:d322
+

@@ -1,0 +1,26 @@
+var a = 0;
+var b = -1;
+var c = 4;
+
+
+if (a>b && a>c) {
+    if (b>c){
+        console.log(a + "," + b +"," + b);
+    } else {
+        console.log(a + "," + b +"," + c);
+    }
+}
+else if (b>a && b>c ){
+    if (a>c) {
+        console.log(b + "," + a +"," + c);
+    } else {
+        console.log(b + "," + c +"," + a);
+    }
+}
+else if (c>a && c>b ){
+    if (a>b) {
+        console.log(c + "," + a +"," + b);
+    } else {
+        console.log(b + "," + a +"," + c);
+    }
+}
