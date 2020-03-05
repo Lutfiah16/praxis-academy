@@ -52,30 +52,18 @@ seperti substring dan toUpperCase.
 . metode objek String adalah sbb :
 
 1. charAt, charCodeAt, codePointAt :Kembalikan karakter atau kode karakter pada posisi yang ditentukan dalam string.
-
 2. indexOf, lastIndexOf :Kembalikan posisi substring yang ditentukan dalam string atau posisi terakhir 
 dari substring yang ditentukan, masing-masing.
-
 3. startsWith, endsWith, includes :Mengembalikan apakah string dimulai, diakhiri atau berisi string yang ditentukan.
-
 4. concat :Menggabungkan teks dari dua string dan mengembalikan string baru
-
 5. fromCharCode, fromCodePoint :Membangun string dari urutan nilai Unicode yang ditentukan. Ini adalah metode kelas String, bukan instance String.
-
 6. split :Membagi objek String menjadi array string dengan memisahkan string menjadi substring.
-
 7. slice :Ekstrak bagian string dan mengembalikan string baru.
-
 8. substring, substr :Kembalikan subset string yang ditentukan, baik dengan menentukan indeks awal dan akhir atau indeks awal dan panjang.
-
 9. match, matchAll, replace, search :Bekerja dengan ekspresi reguler.
-
 10. toLowerCase, toUpperCase : Kembalikan string dalam semua huruf kecil atau semua huruf besar, masing-masing
-
 11. normalize : Mengembalikan Bentuk Normalisasi Unicode dari nilai string panggilan.
-
 12. repeat :Mengembalikan string yang terdiri dari elemen-elemen objek diulangi waktu yang diberikan.
-
 13. trim Trim spasi putih dari awal dan akhir string.
 
 multi-lines
