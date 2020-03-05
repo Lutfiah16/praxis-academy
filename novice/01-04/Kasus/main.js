@@ -1,12 +1,14 @@
-var re = /[\w-]+@([\w-]+\.)+[\w-]+$/;
-var name = /[([^@])]/;
-var domain = /[a-zA-Z0-9]+\.+[a-z]{2,4}/;
-function checkemail(email) {
-    var OK = re.exec(email);
-    var name = name.exec(email);
-    var domain = domain.exec(email);
+var re = /[\w-]+@([\w-]+\.)+[\w-]+$/i;
+var rgname = /([^@]*)/;
+var rgtId = /[a-zA-Z0-9]+\.+[a-z]{2,4}/;
+function testInfo(answer) {
+    var OK = re.exec(answer.value);
+    var uname = rgname.exec(answer.value);
+    var nametId = rgtId.exec(answer.value);
     if (!OK) {
-        alert(email + ' bukanlah email anda'); 
+        alert(answer.value + ' bukanlah format email'); 
   } else {
-    alert('Halo, username anda '+ name + ' dan domain anda adalah ' + domain);}
-} 
+    alert('Halo, username anda '+ uname[0] + ' dan domain anda adalah ' + nametId[0]);
+}
+}
+
