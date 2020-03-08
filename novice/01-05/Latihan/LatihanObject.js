@@ -5,7 +5,7 @@ function sumSalaries(salaries) {
       sum += salary;
     }
   
-    return sum; // 650
+    return sum;
   }
   
   let salaries = {
@@ -14,4 +14,4 @@ function sumSalaries(salaries) {
     "Mary": 250
   };
   
-  alert( sumSalaries(salaries) );
+  console.log( sumSalaries(salaries) );
