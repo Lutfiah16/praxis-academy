@@ -1,17 +1,18 @@
-function sumSalaries(salaries) {
+let salaries = {
+  "John": 100,
+  "Pete": 300,
+  "Mary": 250
+};
 
-    let sum = 0;
-    for (let salary of Object.values(salaries)) {
-      sum += salary;
-    }
-  
-    return sum;
+function sumSalaries(obj) {
+
+  let sum = 0;
+  for (let salary of Object.values(obj)) { // fo of itu untuk melooping 
+    sum += salary;
   }
-  
-  let salaries = {
-    "John": 100,
-    "Pete": 300,
-    "Mary": 250
-  };
-  
-  console.log( sumSalaries(salaries) );
+
+  return sum;
+}
+
+
+console.log( sumSalaries(salaries) );
