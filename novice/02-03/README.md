@@ -1,3 +1,8 @@
+judul materi : Paradigma Pemrograman di JavaScript: Functional Programming
+nama : Lutfiah atsari sujud
+tanggal : 12 maret 2020
+
+
 paradigma /pola pemrograman utama lainnya
 terdiri dari 
 - Pemrograman prosedural 
