@@ -1,0 +1,7 @@
+let meetups = [
+    {nama : 'JS', isActive:true, members:450},
+    {nama : 'Angular, isActive:true, members:900},
+    {nama: 'Node', isActive:false,member :900}
+];
+
+let 
