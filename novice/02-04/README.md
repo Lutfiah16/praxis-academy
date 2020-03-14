@@ -1,26 +1,25 @@
-judul materi : Asynchronous Programming di JavaScript
+
+judul materi : Asynchronous Programming di JavaScript 
 nama : Lutfiah Atsari Sujud
-tanggal : 14 Maret 2020
-konsep nya adalah 
-mengerjakan test 1 blm selesai bisa pindah mengerjakan tread ke test yang lain
-
-multi threaded = > ada 3 treas bisa dilakukan bersamaan (parallelism)
-
-single => sesuatu yang concurrency
+Tanggal : 14 maret 2020
 
 
+Callback 
 
-Asynchronous callback adalah dimana program yang memiliki kegiatan 3
-maka akan dijalankan kegiatan pertama lalu kedua diskip sehingga ke kegiatan ke 3
-maka akan menampilkan kegiatan ketiga sehingga kegiatan yg kedua akan tampil
-setelah kegiatan 3 itu diproses dan tampil
-bisa terjadi jika ada event loop => on click
-
-Asynchronous callback pada WEB API yaitu timeout
-
-callbacks
-sebuah function yang dikirimkan sebagai parameter pada function yg lain atau function yang
-dieksekusi setelah funnction lain selesai dijalankan
+- pengertian 
+. merupakan mekanisme untuk memanggil kembali kode yang ada diprogram dari proses async
+. adalah sebuah function yang dikirimkan sebagai paramater(int,string,object, atau function)
+pada function yang lain dan sebuah function yang dieksekusi setelah function lain selesai dijalankan
+. callback biasanya digunakan dalam bentuk function, dan function tersebut akan dieksekusi
+saat proses async selesai
+. dengan menggunakan callback,program bisa menerima informasi yang dibutuhkan dari proses
+yang berjalan secara async
+. Asynchronous callback adalah dimana program yang memiliki kegiatan 3 maka akan dijalankan kegiatan pertama 
+lalu kedua diskip sehingga ke kegiatan ke 3 maka akan menampilkan kegiatan ketiga sehingga kegiatan yg kedua 
+akan tampil setelah kegiatan 3 itu diproses
+. disetiap proses Async callback akan terjadi yang nama nya event loop yang berguna mengecek
+di callback queue ada antriannya atau tidak
+. pada callback ini ada yang menggunakan Synchronous => sebuah function yang parameter nya function
 contoh :
 //synchronous callback
 function halo(nama){
@@ -34,17 +33,18 @@ callback(nama);
 
 tampilkanPesan(halo); 
 
-atau
+//maka kode diatas akan berproses pada bagian masukkan nama terlebih dahulu lalu menambilkan 
+berupa keterangan "halo nama" , nama disini akan menampilkan nama yang telah diinputkan sebelumnya
+
+atau koding seperti ini pun bisa :
 function tampilkanPesan(callback){
 const nama = prompt('Masukkan nama : ');
 callback(nama);
 }
-
 tampilkanPesan(nama => alert(`halo, ${nama}`)); 
 
-Asynchronous callback 
 
-function getDatamahasiswa(url,success,error){
-	let a = new XMLHttpRequest();
-	a.onreadystat
-}
+- contoh method Async
+. setTimeout(handler,time) => digunakan untuk menjalankan proses Async sekali dalam waktu tertentu
+. setInterval(handler,time) => digunakan untuk menjalankan proses Async secara periodik
+dalam waktu tertentu
