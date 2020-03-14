@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Asyn callback</title>
+        <script>
+            function callback(){
+                console.log("Hello, Selamat Datang");
+            }
+
+            function buttonClick(){
+                //async
+                setTimeout(function(){
+                    callback();
+                }, 5000);
+            console.log("Success Click Button");
+            
+            }
+        </script>
+        <body>
+            <button onclick="buttonClick()">Click Me</button>
+        </body>
+    </head>
+    </html>
