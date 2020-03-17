@@ -10,4 +10,4 @@ reportArea(square1.length, reportList);
 reportPerimeter(square1.length, reportList);
 
 // Use the default
-let square1 = randomSquare(myCanvas.ctx);
+let square2 = randomSquare(myCanvas.ctx);
