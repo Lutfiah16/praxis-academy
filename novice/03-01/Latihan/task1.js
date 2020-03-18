@@ -12,7 +12,6 @@
 
 function proses(){
     try {
-        alert("mulai");
         throw new error("Error!!");
     } catch (e){
         if("can't handle the error") {

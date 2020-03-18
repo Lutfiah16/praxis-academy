@@ -3,7 +3,11 @@ nama : Lutfiah Atsari sujud
 tanggal : 18 Maret 2020
 
 
-
+Error Handling adalah satu penanganan kesalahan (eror) pada berbagai macam keadaan 
+dalam pemrograman. Setiap ada kesalahan, maka eksekusi program tidak akan 
+dihentikan secara tiba tiba, tetapi akan diteruskan ke baris program yang 
+terdapat script penanganan kesalahan.
+atau secara singkat nya =>  sistem penanganan kesalahan (error) dalam berbagai macam keadaan pada sebuah program.
 try => pernyataan yang akan dieksekusi
 catch => tempat pengecualian jika terjadi error
 finally => dilakukan setelah try di eksekusi telah selesai
@@ -96,6 +100,6 @@ function proses(){
     }
     proses();
 
-    //kodingan yang diatas ini bila menggunakan sebuah operator throw maka 
-    //hanya menampilkan saja try yang mulai lalu langsung finally 
-    //stelah itu akan tidak terjadi apa2
+kodingan yang diatas ini bila menggunakan sebuah operator throw maka 
+hanya menampilkan saja try yang mulai lalu langsung finally 
+stelah itu akan tidak terjadi apa2

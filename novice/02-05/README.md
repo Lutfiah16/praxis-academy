@@ -1,3 +1,9 @@
+judul materi : javascript module
+nama : Lutfiah Atsari Sujud 
+tanggal : 17 Maret 2020
+
+
+
 1. struktur data dari javascript modules di MDN adalah sbb :
 index.html
 main.js
