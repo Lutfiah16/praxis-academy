@@ -48,7 +48,9 @@ method terdiri dari :
 - error()
 - redirect()
 - blob()
-- fromData()
+- fromData() => perintah untuk mengupload sebuah file
 - json()
 - text()
 
+kalau element nya satu saja pada data tersebut gunsksn querySelector kalau bnyak
+menggunakan querySelectorAll akan menghasilkan nodelist(antarmuka browser) atau array
