@@ -30,18 +30,29 @@
     </ul>
 
     <script>
-        //membuat li pertama
-    const liBaru = document.createElement('li');
-    const textLiBaru = document.createTextNode('Eggs');
-    liBaru.appendChild(textLiBaru);
-    const ul = document.querySelector('ul');
-    ul.appendChild(liBaru);  
-    
-    //menambahkan li
-    const liDua = document.createTextNode('Milk');
-    liBaru.appendChild(liDua);
-    const ulDua = document.querySelector('ul');
-    ulDua.appendChild(liBaru);  
+    const list = document.querySelector('ul');
+        const input = document.querySelector('input');
+        const button = document.querySelector('button');
+        button.onclick = function() {
+            let myItem = input.value;
+            input.value = '';
+
+            const list_Item = document.createElement('li');
+            const list_Text = document.createElement('span');
+            const list_Btn = document.createElement('button');
+          
+            list_Item.appendChild(list_Text);
+            list_Text.textContent = myItem;
+            list_Item.appendChild(list_Btn);
+            list_Btn.textContent = 'Delete';
+            list.appendChild(list_Item);
+
+            list_Btn.onclick = function(e) {
+                list.removeChild(list_Item);
+            }
+
+            input.focus();
+            }  
     </script>
   </body>
 </html>
