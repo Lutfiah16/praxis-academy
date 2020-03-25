@@ -19,18 +19,11 @@ yang memiliki nya sebagai berikut :
     Dalam contoh ini, yang pertama <div> dipilih dengan querySelector()metode dan warnanya diubah menjadi merah.
 
     HTML
-    <html>
-        <head>
-            <title></title>
-        </head>
-    <body>
-        <p>paragraph one</p>
-        <p>paragraph two</p>
-        <div>div one</div>
-        <p>paragraph three</p>
-        <div>div two</div>
-    </body>
-    </html>
+    <p>paragraph one</p>
+    <p>paragraph two</p>
+    <div>div one</div>
+    <p>paragraph three</p>
+    <div>div two</div>
 
     JavaScript
     var firstDiv = document.querySelector('div');
@@ -51,18 +44,11 @@ yang memiliki nya sebagai berikut :
     Contoh di bawah ini menggunakan HTML yang sama dengan yang sebelumnya. Namun, dalam contoh ini, semua paragraf dipilih dengan querySelectorAll(), dan berwarna biru.
 
     HTML
-    <html>
-    <head>
-        <title></title>
-    </head>
-    <body>
         <p>paragraph one</p>
         <p>paragraph two</p>
         <div>div one</div>
         <p>paragraph three</p>
         <div>div two</div>
-    </body>
-    </html>
 
     Javascript 
      var paragraphs = document.querySelectorAll('p');
@@ -85,14 +71,7 @@ yang memiliki nya sebagai berikut :
     Dalam contoh ini, kami menambahkan pendengar peristiwa klik yang dipanggil foo, ke <button> tag HTML.
 
     HTML 
-    <html>
-    <head>
-        <title></title>
-    </head>
-    <body>
         <button>Click Me</button>
-    </body>
-    </html>
 
     Javascript
     var btn = document.querySelector('button');
@@ -112,14 +91,7 @@ yang memiliki nya sebagai berikut :
     Mengikuti Contoh Kode yang kami gunakan di addEventListener()sini, di sini kami menghapus pendengar peristiwa klik yang dipanggil foodari <button> elemen.
 
     HTML
-    <html>
-        <head>
-            <title></title>
-        </head>
-    <body>
-        <button>Click Me</button>
-    </body>
-    </html>
+    <button>Click Me</button>
 
     Javascript
         var btn = document.querySelector('button');
@@ -153,16 +125,9 @@ yang memiliki nya sebagai berikut :
 
     contoh kode program :
     Dalam contoh ini, kami menyisipkan <strong>elemen sebagai anak <div>elemen dengan menggunakan appendChild()dan createElement()metode yang disebutkan sebelumnya .
-    
+
     HTML
-    <html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        <div></div>
-    </body>
-    </html>
+    <div></div>
 
     Javascript
     var div = document.querySelector('div');
