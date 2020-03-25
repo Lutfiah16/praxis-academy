@@ -185,20 +185,20 @@ yang memiliki nya sebagai berikut :
     
 9. cloneNode()
 
-        cloneNode() adalah sebuah methon pada DOM untuk proses mengcopy atau menduplikat/menyalin sebuah elemen/kata atau data yg ada
+    cloneNode() adalah sebuah methon pada DOM untuk proses mengcopy atau menduplikat/menyalin sebuah elemen/kata atau data yg ada
 
-        sintaks nya adalah :
+    sintaks nya adalah :
         var dupeEle = ele.cloneNode([deep])
 
-        penjelasan :
-        - dupeEle => Salinan eleelemen.
-        - ele => Elemen HTML yang akan disalin.
-        - deep => (opsional) Nilai boolean. Jika diatur ke true, dupeEleakan memiliki semua elemen anak ele, jika diatur untuk falseitu akan dikloning tanpa anak-anaknya.
+    penjelasan :
+    - dupeEle => Salinan eleelemen.
+    - ele => Elemen HTML yang akan disalin.
+    - deep => (opsional) Nilai boolean. Jika diatur ke true, dupeEleakan memiliki semua elemen anak ele, jika diatur untuk falseitu akan dikloning tanpa anak-anaknya.
 
-        Contoh Kode program :
-        Dalam contoh ini, kami membuat salinan untuk <strong>elemen dengan cloneNode(), kemudian kami menambahkannya ke <div>tag sebagai elemen anak dengan appendChild()metode yang disebutkan di atas .
+    Contoh Kode program :
+    Dalam contoh ini, kami membuat salinan untuk <strong>elemen dengan cloneNode(), kemudian kami menambahkannya ke <div>tag sebagai elemen anak dengan appendChild()metode yang disebutkan di atas .
 
-        Akibatnya, <div>akan mengandung dua <strong>elemen, baik dengan hellostring sebagai konten.
+    Akibatnya, <div>akan mengandung dua <strong>elemen, baik dengan hellostring sebagai konten.
 
                     HTML
                     <div>
@@ -213,17 +213,18 @@ yang memiliki nya sebagai berikut :
 
 10. insertBefore()
 
-        insertBefore adalah sebuah method DOM yang digunakan untuk menyisipkan atau menambahkan sebuah elemen baru sebelum child element sama seperti appendChild namun method ini untuk menyisipkan atau menambahkan sebuah element di akhir child nya pada elemen parent
+    insertBefore adalah sebuah method DOM yang digunakan untuk menyisipkan atau menambahkan sebuah elemen baru sebelum child element sama seperti appendChild namun method ini untuk menyisipkan atau menambahkan sebuah element di akhir child nya pada elemen parent
 
-        sintaks nya adalah :
-        ele.insertBefore(newEle, refEle);
-        penjelasan :
-        - ele => Elemen induk.
-        - newEle => Elemen HTML baru yang akan dimasukkan.
-        - refEle => Elemen anak ele sebelumnya yang newEle akan dimasukkan.
+    sintaks nya adalah :
+    ele.insertBefore(newEle, refEle);
 
-        Contoh Kode program :
-        Dalam contoh ini, kita membuat baru <em>elemen dengan beberapa di dalam teks, dan menambahkannya sebelum para <strong>elemen di dalam <div>elemen induk.
+    penjelasan :
+    - ele => Elemen induk.
+    - newEle => Elemen HTML baru yang akan dimasukkan.
+    - refEle => Elemen anak ele sebelumnya yang newEle akan dimasukkan.
+
+    Contoh Kode program :
+    Dalam contoh ini, kita membuat baru <em>elemen dengan beberapa di dalam teks, dan menambahkannya sebelum para <strong>elemen di dalam <div>elemen induk.
 
                     HTML
                     <div>
@@ -239,14 +240,14 @@ yang memiliki nya sebagai berikut :
 
 11. createDocumentFragment()
 
-        createDocumentFragment yang pada dasarnya adalah simpul DOM yang bukan bagian dari pohon DOM di mana kita dapat menambahkan dan menyimpan elemen lain (misalnya beberapa baris) terlebih dahulu, sebelum menambahkannya ke node yang diinginkan di pohon DOM (misalnya ke sebuah tabel).
+     createDocumentFragment yang pada dasarnya adalah simpul DOM yang bukan bagian dari pohon DOM di mana kita dapat menambahkan dan menyimpan elemen lain (misalnya beberapa baris) terlebih dahulu, sebelum menambahkannya ke node yang diinginkan di pohon DOM (misalnya ke sebuah tabel).
 
-        Sintaks nya adalah :
-        document.createDocumentFragment()
+    Sintaks nya adalah :
+    document.createDocumentFragment()
 
-        Contoh Kode program :
-        Dalam contoh ini, kami membuat beberapa baris tabel dan sel dengan createElement()metode, lalu menambahkannya ke DocumentFragmentobjek, akhirnya menambahkan fragmen dokumen ke HTML <table>menggunakan appendChild()metode.
-        Hasilnya, lima baris - masing-masing berisi satu sel dengan angka dari 1 hingga 5 sebagai konten - akan dimasukkan ke dalam tabel.
+    Contoh Kode program :
+    Dalam contoh ini, kami membuat beberapa baris tabel dan sel dengan createElement()metode, lalu menambahkannya ke DocumentFragmentobjek, akhirnya menambahkan fragmen dokumen ke HTML <table>menggunakan appendChild()metode.
+    Hasilnya, lima baris - masing-masing berisi satu sel dengan angka dari 1 hingga 5 sebagai konten - akan dimasukkan ke dalam tabel.
 
                     HTML
                     <table></table>
@@ -267,18 +268,18 @@ yang memiliki nya sebagai berikut :
 
 12. getComputedStyle()
 
-        getComputedStyle adalah memeriksa nilai properti CSS suatu elemen sebelum membuat perubahan apa pun. Anda dapat menggunakan ele.styleproperti untuk melakukan hal yang sama, namun getComputedStyle() metode ini dibuat hanya untuk tujuan ini, ini mengembalikan nilai yang dihitung hanya baca dari semua properti CSS elemen HTML yang ditentukan.
+    getComputedStyle adalah memeriksa nilai properti CSS suatu elemen sebelum membuat perubahan apa pun. Anda dapat menggunakan ele.styleproperti untuk melakukan hal yang sama, namun getComputedStyle() metode ini dibuat hanya untuk tujuan ini, ini mengembalikan nilai yang dihitung hanya baca dari semua properti CSS elemen HTML yang ditentukan.
 
-        Sintaks nya adalah :
-        var style = getComputedStyle(ele, [pseudoEle])
+    Sintaks nya adalah :
+    var style = getComputedStyle(ele, [pseudoEle])
 
-        penjelasan ;
-        style- CSSStyleDeclarationObjek yang dikembalikan oleh metode. Ini menampung semua properti CSS dan nilai-nilai eleelemen tersebut.
-        ele - Elemen HTML yang mengambil nilai properti CSS.
-        pseudoEle- (opsional) String yang mewakili elemen pseudo (misalnya, ':after'). Jika ini disebutkan, maka properti CSS dari elemen pseudo-spesifik yang ditentukan eleakan dikembalikan.
+    penjelasan ;
+    - style => CSSStyleDeclarationObjek yang dikembalikan oleh metode. Ini menampung semua properti CSS dan nilai-nilai eleelemen tersebut.
+    - ele => Elemen HTML yang mengambil nilai properti CSS.
+    - pseudoEle => (opsional) String yang mewakili elemen pseudo (misalnya, ':after'). Jika ini disebutkan, maka properti CSS dari elemen pseudo-spesifik yang ditentukan eleakan dikembalikan.
 
-        Contoh Kode program :
-        Dalam contoh ini, kami mendapatkan dan mengingatkan nilai yang dihitung widthdari suatu <div>elemen dengan menggunakan getComputedStyle()metode ini.
+    Contoh Kode program :
+    Dalam contoh ini, kami mendapatkan dan mengingatkan nilai yang dihitung widthdari suatu <div>elemen dengan menggunakan getComputedStyle()metode ini.
 
                         HTML
                         <div></div>
@@ -289,18 +290,18 @@ yang memiliki nya sebagai berikut :
 
 13. setAttribute()
 
-        setAttribute adalah method DOM untuk menambahkan atribut baru untuk sebuah elemen HTML, atau memperbarui nilai dari atribut yang sudah ada.kode diatas adalah menambhkan atribut dengan nama contenteditable di sebelah atribut div
+    setAttribute adalah method DOM untuk menambahkan atribut baru untuk sebuah elemen HTML, atau memperbarui nilai dari atribut yang sudah ada.kode diatas adalah menambhkan atribut dengan nama contenteditable di sebelah atribut div
 
-        Sintaks nya adalah :
-        ele.setAttribute(name, value);
+    Sintaks nya adalah :
+    ele.setAttribute(name, value);
 
-        penjelasan :
-        - ele => Elemen HTML tempat atribut ditambahkan, atau atribut mana yang diperbarui.
-        - name => Nama atribut.
-        - value => Nilai atribut.
+    penjelasan :
+    - ele => Elemen HTML tempat atribut ditambahkan, atau atribut mana yang diperbarui.
+    - name => Nama atribut.
+    - value => Nilai atribut.
 
-        Contoh Kode program :
-        Dalam contoh ini, kita menambahkan contenteditableatribut ke a <div>dengan memanfaatkan setAttribute()metode, yang akan mengubah kontennya dapat diedit.
+    Contoh Kode program :
+    Dalam contoh ini, kita menambahkan contenteditableatribut ke a <div>dengan memanfaatkan setAttribute()metode, yang akan mengubah kontennya dapat diedit.
 
                         HTML
                         <div>hello</div>
@@ -311,17 +312,17 @@ yang memiliki nya sebagai berikut :
 
 14. getAttribute()
 
-        getAttribute adalah sebuah method mengembalikan nilai atribut tertentu milik elemen HTML tertentu. atau mengetahui isi atau keterangan dari sebuah atribut pada elemen html
+    getAttribute adalah sebuah method mengembalikan nilai atribut tertentu milik elemen HTML tertentu. atau mengetahui isi atau keterangan dari sebuah atribut pada elemen html
 
-        Sintaks nya adalah :
-        ele.getAttribute(name);
+    Sintaks nya adalah :
+    ele.getAttribute(name);
 
-        penjelasan :
-        - ele => Elemen HTML dari atribut yang diminta.
-        - name => Nama atribut.
+    penjelasan :
+    - ele => Elemen HTML dari atribut yang diminta.
+    - name => Nama atribut.
 
-        Contoh Kode program :
-        Dalam contoh ini, kami mengingatkan nilai contenteditableatribut yang dimiliki <div>elemen dengan bantuan getAttribute()metode.
+    Contoh Kode program :
+    Dalam contoh ini, kami mengingatkan nilai contenteditableatribut yang dimiliki <div>elemen dengan bantuan getAttribute()metode.
 
                         HTML
                         <div contenteditable=true>hello</div>
@@ -332,17 +333,17 @@ yang memiliki nya sebagai berikut :
 
 15. removeAttribute()
 
-        removeAttribute adalah sebuah method yang berfungsi untuk menghapus sebuah atribut dari elemen HTML tertentu, Dalam contoh ini, kami menghapus contenteditable atribut dari elemen <div>.
+    removeAttribute adalah sebuah method yang berfungsi untuk menghapus sebuah atribut dari elemen HTML tertentu, Dalam contoh ini, kami menghapus contenteditable atribut dari elemen <div>.
 
-        Sintaks nya adalah :
-        ele.removeAttribute(name);
+    Sintaks nya adalah :
+    ele.removeAttribute(name);
 
-        penjelasan :
-        - ele => Elemen HTML yang atributnya akan dihapus.
-        - name => Nama atribut.
+    penjelasan :
+    - ele => Elemen HTML yang atributnya akan dihapus.
+    - name => Nama atribut.
 
-        Contoh Kode program
-        Dalam contoh ini, kami menghapus contenteditableatribut dari <div>elemen. Akibatnya, <div>tidak akan dapat diedit lagi.
+    Contoh Kode program
+    Dalam contoh ini, kami menghapus contenteditableatribut dari <div>elemen. Akibatnya, <div>tidak akan dapat diedit lagi.
 
                         HTML
                         <div contenteditable=true>hello</div>
