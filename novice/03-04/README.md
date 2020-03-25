@@ -18,16 +18,16 @@ yang memiliki nya sebagai berikut :
     contoh kode program :
     Dalam contoh ini, yang pertama <div> dipilih dengan querySelector()metode dan warnanya diubah menjadi merah.
 
-    HTML
-    <p>paragraph one</p>
-    <p>paragraph two</p>
-    <div>div one</div>
-    <p>paragraph three</p>
-    <div>div two</div>
+            HTML
+            <p>paragraph one</p>
+            <p>paragraph two</p>
+            <div>div one</div>
+            <p>paragraph three</p>
+            <div>div two</div>
 
-    JavaScript
-    var firstDiv = document.querySelector('div');
-    firstDiv.style.color = 'red';
+            JavaScript
+            var firstDiv = document.querySelector('div');
+            firstDiv.style.color = 'red';
 
 2. querySelectorAll()
     querySelectorAll adalah method yang digunakan untuk mencari semua element berdasarkan selector yang di
@@ -43,17 +43,17 @@ yang memiliki nya sebagai berikut :
     contoh kode program :
     Contoh di bawah ini menggunakan HTML yang sama dengan yang sebelumnya. Namun, dalam contoh ini, semua paragraf dipilih dengan querySelectorAll(), dan berwarna biru.
 
-    HTML
-        <p>paragraph one</p>
-        <p>paragraph two</p>
-        <div>div one</div>
-        <p>paragraph three</p>
-        <div>div two</div>
+            HTML
+                <p>paragraph one</p>
+                <p>paragraph two</p>
+                <div>div one</div>
+                <p>paragraph three</p>
+                <div>div two</div>
 
-    Javascript 
-     var paragraphs = document.querySelectorAll('p');
-            for(var p of paragraphs)
-            p.style.color = 'blue';
+            Javascript 
+            var paragraphs = document.querySelectorAll('p');
+                    for(var p of paragraphs)
+                    p.style.color = 'blue';
 
 3. addEventListener()
     addEventListener adalah method pada DOM yang digunakan untuk menambhkan sebuah event pada element html semisal mengklik, fokus, atau memuat, yang dapat kami bereaksi dengan JavaScript
@@ -70,13 +70,13 @@ yang memiliki nya sebagai berikut :
     contoh kode program :
     Dalam contoh ini, kami menambahkan pendengar peristiwa klik yang dipanggil foo, ke <button> tag HTML.
 
-    HTML 
-        <button>Click Me</button>
+            HTML 
+                <button>Click Me</button>
 
-    Javascript
-    var btn = document.querySelector('button');
-            btn.addEventListener('click',foo);
-            function foo() { alert('hello'); }
+            Javascript
+            var btn = document.querySelector('button');
+                    btn.addEventListener('click',foo);
+                    function foo() { alert('hello'); }
 
 4. removeEventListener()
     removeEventListener adalah method pada DOM yang digunakan untuk menghapus sebuah event yang telah di buat semisa; diatas adalah kode menghapus fungsi onclick nya pada buttonnya
@@ -90,14 +90,14 @@ yang memiliki nya sebagai berikut :
     contoh kode program :
     Mengikuti Contoh Kode yang kami gunakan di addEventListener()sini, di sini kami menghapus pendengar peristiwa klik yang dipanggil foodari <button> elemen.
 
-    HTML
-    <button>Click Me</button>
+            HTML
+            <button>Click Me</button>
 
-    Javascript
-        var btn = document.querySelector('button');
-            btn.addEventListener('click',foo);
-            function foo() { alert('hello'); }
-        btn.removeEventListener('click', foo);
+            Javascript
+                var btn = document.querySelector('button');
+                    btn.addEventListener('click',foo);
+                    function foo() { alert('hello'); }
+                btn.removeEventListener('click', foo);
 
 5. createElement()
     createElement adalah method untuk membuat sebuah element dan dapat berupa apapun.
@@ -126,14 +126,14 @@ yang memiliki nya sebagai berikut :
     contoh kode program :
     Dalam contoh ini, kami menyisipkan <strong>elemen sebagai anak <div>elemen dengan menggunakan appendChild()dan createElement()metode yang disebutkan sebelumnya .
 
-    HTML
-    <div></div>
+            HTML
+            <div></div>
 
-    Javascript
-    var div = document.querySelector('div');
-    var strong = document.createElement('strong');
-    strong.textContent = 'Hello';
-    div.appendChild(strong);
+            Javascript
+            var div = document.querySelector('div');
+            var strong = document.createElement('strong');
+            strong.textContent = 'Hello';
+            div.appendChild(strong);
 
 7. removeChild()
     removeChild adalah sebuah method DOM yang digunakan untuk menghapus element anak tertentu dari elemen HTML yang memanggil metode ini, dari kode diatas kami menghapus <strong> elemen yang kami tambahkan sebagai anak ke <div> tag di Contoh Kode untuk appendChild() metode sebelumnya .
