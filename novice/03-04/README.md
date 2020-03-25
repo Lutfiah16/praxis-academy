@@ -134,3 +134,15 @@ yang memiliki nya sebagai berikut :
     var strong = document.createElement('strong');
     strong.textContent = 'Hello';
     div.appendChild(strong);
+
+7. removeChild()
+    removeChild adalah sebuah method DOM yang digunakan untuk menghapus element anak tertentu dari elemen HTML yang memanggil metode ini, dari kode diatas kami menghapus <strong> elemen yang kami tambahkan sebagai anak ke <div> tag di Contoh Kode untuk appendChild() metode sebelumnya .
+    
+    Sintaksis
+    ele.removeChild(childEle)
+    ele- Elemen induk dari childEle.
+    childEle- Elemen anak dari ele.
+    Contoh Kode
+    Dalam contoh ini, kami menghapus <strong>elemen yang kami tambahkan sebagai anak ke <div>tag di Contoh Kode untuk appendChild()metode sebelumnya .
+
+    div.removeChild(strong);
