@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+<body>
+    <table></table>
+    <script>
+        var table = document.querySelector("table");
+        var df = document.createDocumentFragment();
+        
+        for(var i=0; i<5; i++) {
+        var td = document.createElement("td");
+        var tr = document.createElement("tr");
+        td.textContent = i;
+        tr.appendChild(td)
+        df.appendChild(tr);
+        }
+        
+        table.appendChild(df);
+    </script>
+</body>
+</html>
+<!--createDocumentFragment yang pada dasarnya adalah simpul DOM yang bukan bagian dari pohon DOM
+ di mana kita dapat menambahkan dan menyimpan elemen lain (misalnya beberapa baris) terlebih dahulu, 
+ sebelum menambahkannya ke node yang diinginkan di pohon DOM (misalnya ke sebuah tabel).-->

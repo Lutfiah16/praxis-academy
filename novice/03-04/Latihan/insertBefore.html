@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+<body>
+    <div>
+        <strong>hello</strong>
+      </div>
+    <script>
+        var em = document.createElement('em');
+        var strong = document.querySelector('strong');
+        var div = document.querySelector('div');
+        em.textContent = 'hi';
+        div.insertBefore(em, strong);
+    </script>
+</body>
+</html>
+<!--insertBefore adalah sebuah method DOM yang digunakan untuk menyisipkan 
+atau menambahkan sebuah elemen baru sebelum child element sama seperti
+appendChild namun method ini untuk menyisipkan atau menambahkan sebuah element
+di akhir child nya pada elemen parent  -->
