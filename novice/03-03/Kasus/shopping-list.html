@@ -3,17 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Shopping list example</title>
-    <style>
-      li {
-        margin-bottom: 10px;
-      }
-
-      li button {
-        font-size: 8px;
-        margin-left: 20px;
-        color: #666;
-      }
-    </style>
+    <link rel="stylesheet" href="./node_modules/bulma/v0.8.0/css/bulma.css">
   </head>
   <body>
 
@@ -35,7 +25,7 @@
         const button = document.querySelector('button');
         button.onclick = function() {
             let myItem = input.value;
-            input.value = '';
+            input.value = ' ';
 
             const list_Item = document.createElement('li');
             const list_Text = document.createElement('span');
@@ -44,7 +34,7 @@
             list_Item.appendChild(list_Text);
             list_Text.textContent = myItem;
             list_Item.appendChild(list_Btn);
-            list_Btn.textContent = 'Delete';
+            list_Btn.textContent = ' Delete';
             list.appendChild(list_Item);
 
             list_Btn.onclick = function(e) {
