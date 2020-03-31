@@ -6,9 +6,9 @@ reaktif data binding
 langsung nyambung DOM asli nya
 
 setiap aplikasi vue dimulai dengan membuat instance vue yaitu sbb :
-        var app = new Vue ({
-            //option
-        });
+                var app = new Vue ({
+                    //option
+                });
 
 vue instance dan property 
 => dapat menaruh data,method,tamplating
@@ -17,7 +17,6 @@ contoh :
         <div id ="app">
         {{nama}}
         </div>
-
         <script>
             new Vue({
                 el :  '#app',
@@ -64,7 +63,6 @@ contoh :
             {{nama}}
             </div>
         </div>
-
         <script>
         var data ={
             nama : "pengenalan Vue.js"
@@ -104,7 +102,6 @@ contoh :
             </li>
         </ol>
         </div>
-
         <script>
         var app4 = new Vue({
         el: '#app-4',
@@ -125,25 +122,24 @@ contoh :
 => Untuk memungkinkan pengguna berinteraksi dengan aplikasi Anda, kami dapat menggunakan v-on arahan untuk melampirkan pendengar acara yang memanggil metode pada instance Vue kami
 
 contoh :
-            <div id="app-5">
-                <p>{{ message }}</p>
-                <button v-on:click="reverseMessage">Reverse Message</button>
-            </div>
-            
-
-            <script>
-                var app5 = new Vue({
-                el: '#app-5',
-                data: {
-                message: 'Hello Vue.js!'
-                },
-                methods: {
-                reverseMessage: function () {
-                    this.message = this.message.split('').reverse().join('')
-                }
-                }
-            })
-            </script>
+        <div id="app-5">
+                    <p>{{ message }}</p>
+                    <button v-on:click="reverseMessage">Reverse Message</button>
+        </div>
+        <script>
+                    var app5 = new Vue({
+                    el: '#app-5',
+                    data: {
+                    message: 'Hello Vue.js!'
+                    },
+                    methods: {
+                    reverseMessage: function () {
+                        this.message = this.message.split('').reverse().join('')
+                    }
+                    }
+                })
+        </script>
+        
 
 
 4. Direktif data binding
@@ -182,8 +178,6 @@ contoh :
                 <p>{{ message }}</p>
                 <input v-model="message">
             </div>
-            
-
             <script>
                 var app6 = new Vue({
                 el: '#app-6',
