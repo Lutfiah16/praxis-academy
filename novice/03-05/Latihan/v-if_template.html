@@ -7,18 +7,20 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    <div id ="app">
-    <h1 v-if="awesome">
-        {{pesan}}
+    <div id="app">
+    <template v-if="ok">
+        <h1>Title</h1>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+      </template>
     </div>
-    <script>
-        var app = new Vue ({
+      <script>
+          var app = new Vue ({
             el : "#app",
             data : {
-                pesan : 'Vue is awesome!',
-                awesome: true
+                ok: true
             }
         });
-    </script>
+      </script>
 </body>
 </html>

@@ -10,13 +10,15 @@
     <div id ="app">
     <h1 v-if="awesome">
         {{pesan}}
+    </h1>
+    <h1 v-else>Oh no 😢</h1>
     </div>
     <script>
         var app = new Vue ({
             el : "#app",
             data : {
                 pesan : 'Vue is awesome!',
-                awesome: true
+                awesome:false
             }
         });
     </script>
