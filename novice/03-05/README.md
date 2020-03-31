@@ -6,9 +6,10 @@ reaktif data binding
 langsung nyambung DOM asli nya
 
 setiap aplikasi vue dimulai dengan membuat instance vue yaitu sbb :
-                var app = new Vue ({
-                    //option
-                });
+        var app = new Vue ({
+            //option
+        });
+               
 
 vue instance dan property 
 => dapat menaruh data,method,tamplating
