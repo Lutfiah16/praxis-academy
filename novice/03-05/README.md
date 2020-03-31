@@ -6,6 +6,7 @@ reaktif data binding
 langsung nyambung DOM asli nya
 
 setiap aplikasi vue dimulai dengan membuat instance vue yaitu sbb :
+        
         var app = new Vue ({
             //option
         });
@@ -15,6 +16,7 @@ vue instance dan property
 => dapat menaruh data,method,tamplating
 
 contoh :
+
         <div id ="app">
         {{nama}}
         </div>
@@ -28,10 +30,10 @@ contoh :
         </script>
 
 atau :
+
         <div id ="app">
         {{nama}}
         </div>
-
         <script>
         var data ={
             nama : "pengenalan Vue.js"
@@ -55,10 +57,12 @@ v-else-if digunakan jika memiliki banyak kondisi.
 
 - v-if
 cara penulisan 
+
         <div v-if>
         </div>
 
 contoh :
+
         <div id ="app">
             <div v-if ="true">
             {{nama}}
@@ -78,6 +82,7 @@ contoh :
 
 - v-else
 cara penulisan
+
         <div v-else>
         </div>
 
@@ -87,6 +92,7 @@ untuk else tidak memerlukan persyaratan melainkan keterangan yang ingin ditampil
 - v-show
 mirip dengan v-if namun memiliki perbedaan yaitu saat keadaan nya false maka keterangan nya akan tampil berupa css dan vshow itu memainkan css nya 
 cara penulisan
+
         <div v-show>
         </div>
 
@@ -96,6 +102,7 @@ cara penulisan
 - v-for
 => untuk menampilkan daftar item menggunakan data dari array
 contoh :
+
         <div id="app-4">
         <ol>
             <li v-for="todo in todos">
@@ -123,6 +130,7 @@ contoh :
 => Untuk memungkinkan pengguna berinteraksi dengan aplikasi Anda, kami dapat menggunakan v-on arahan untuk melampirkan pendengar acara yang memanggil metode pada instance Vue kami
 
 contoh :
+
         <div id="app-5">
                     <p>{{ message }}</p>
                     <button v-on:click="reverseMessage">Reverse Message</button>
@@ -175,6 +183,7 @@ contoh :
 => adalah direktif untuk melakukan two way data binding.
 
 contoh :
+
             <div id="app-6">
                 <p>{{ message }}</p>
                 <input v-model="message">
