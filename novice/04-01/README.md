@@ -6,6 +6,7 @@ Tanggal : 01 April 2020
 
 
 Component
+
 Untuk menggunakan komponen ini dalam templat, mereka harus didaftarkan agar Vue tahu tentang mereka. Ada dua tipe untuk mendaftarkan: global dan local. Sejauh ini, Kita hanya mendaftarkan komponen secara global, menggunakan Vue.component:
 
         Vue.component('my-component-name', {
@@ -19,6 +20,7 @@ Itu saja yang perlu Anda ketahui tentang pendaftaran untuk saat ini, tetapi sete
 
 
 Transition 
+
 Ada enam kelas yang diterapkan untuk transisi masuk/keluar.
 
 1. v-enter: State (keadaan) awal untuk proses masuk. Ditambahkan sebelum elemen dimasukkan, dilepaskan satu frame setelah elemen dimasukkan.
