@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Directive Arguments</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <!-- contoh 1 -->
+    <div id="baseexample">
+        <p>Scroll down the page</p>
+        <p v-pin="200">Stick me 200px from the top of the page</p>
+      </div>
+
+      <script>
+          Vue.directive('pin', {
+            bind: function (el, binding, vnode) {
+                el.style.position = 'fixed'
+                el.style.top = binding.value + 'px'
+            }
+            })
+
+            new Vue({
+            el: '#baseexample'
+            })
+      </script>
+
+      <!-- contoh 2 -->
+      <div id="dynamicexample">
+        <h3>Scroll down inside this section ↓</h3>
+        <p v-pin:[direction]="200">I am pinned onto the page at 200px to the left.</p>
+      </div>
+    <script>
+        Vue.directive('pin', {
+            bind: function (el, binding, vnode) {
+            el.style.position = 'fixed'
+            var s = (binding.arg == 'left' ? 'left' : 'top')
+            el.style[s] = binding.value + 'px'
+            }
+        })
+        
+        new Vue({
+            el: '#dynamicexample',
+            data: function () {
+            return {
+                direction: 'left'
+            }
+            }
+        })
+    </script>
+</body>
+</html>

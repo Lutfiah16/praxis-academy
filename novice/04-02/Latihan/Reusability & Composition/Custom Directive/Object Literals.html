@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Literals</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div v-demo="{ color:'white', text: 'hello!' }"></div>
+    
+    <script>
+    Vue.directive('demo', function (el, binding) {
+        console.log(binding.value.color)
+        console.log(binding.value.text)
+    })    
+    </script>
+</body>
+</html>

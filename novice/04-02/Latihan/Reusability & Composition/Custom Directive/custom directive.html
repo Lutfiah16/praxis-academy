@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Directive</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <!-- <input v-focus>
+    <script>
+        // Register a global custom directive called `v-focus`
+    Vue.directive('focus', {
+    // When the bound element is inserted into the DOM...
+    inserted: function (el) {
+        // Focus the element
+        el.focus()
+    }
+    })
+
+    directives: {
+    focus: {
+        // directive definition
+        inserted: function (el) {
+        el.focus()
+        }
+    }
+    }
+    </script> -->
+    <div id="hook-arguments-example" v-demo:foo.a.b="message"></div>
+    <script>
+        Vue.directive('demo', {
+        bind: function (el, binding, vnode) {
+            var s = JSON.stringify
+            el.innerHTML =
+            'name: '       + s(binding.name) + '<br>' +
+            'value: '      + s(binding.value) + '<br>' +
+            'expression: ' + s(binding.expression) + '<br>' +
+            'argument: '   + s(binding.arg) + '<br>' +
+            'modifiers: '  + s(binding.modifiers) + '<br>' +
+            'vnode keys: ' + Object.keys(vnode).join(', ')
+        }
+        })
+
+        new Vue({
+        el: '#hook-arguments-example',
+        data: {
+            message: 'hello!'
+        }
+        })
+    </script>
+</body>
+</html>
