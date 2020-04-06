@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kasus 04-02</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <style>
+      button.page-link {
+          display: inline-block;
+      }
+      button.page-link {
+          font-size: 20px;
+          color: #29b3ed;
+          font-weight: 500;
+      }
+      .offset {
+          width: 600px !important;
+          margin: 20px auto;
+      }
+      .table th {
+          font-size: 12px;
+      }
+  </style>
+</head>
+<body>
+    <div id="app" class="col-sm-12">
+        <div class="offset">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Lutfiah16 Update README.md</th>
+                        <th></th>
+                        <th>Latest commit 2 days ago</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="p in displayedPosts">
+                        <td>{{p.folder}}</td>
+                        <td>{{p.commit}}</td>
+                        <td>{{p.tgl}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <button type="button" class="page-link" v-if="page != 1" @click="page--"> Previous </button>
+                    </li>
+                    <li class="page-item">
+                        <button type="button" class="page-link" v-for="pageNumber in pages.slice(page-1, page+5)" @click="page = pageNumber"> {{pageNumber}} </button>
+                    </li>
+                    <li class="page-item">
+                        <button type="button" @click="page++" v-if="page < pages.length" class="page-link"> Next </button>
+                    </li>
+                </ul>
+            </nav>	
+      </div>
+    </div>
+    
+    <script>
+    new Vue({
+        el: '#app',
+        data() {
+            return {
+                posts: [''],
+                page: 1,
+                perPage: 9,
+                pages: [],
+            }
+        },
+        
+        methods: {
+            getPosts() {
+                let data = [];
+                for(let i = 1; i <=30; i++) {
+                    this.posts.push({
+                        folder: 'Latihan'+ ' ' + i, 
+                        commit: 'update', 
+                        tgl: '2 days ago'
+                    });
+                }
+            },
+            setPages() {
+                let numberOfPages = Math.ceil(this.posts.length / this.perPage);
+                for(let index = 1; index <= numberOfPages; index++) {
+                    this.pages.push(index);
+                }
+            },
+            paginate(posts) {
+                let page = this.page;
+                let perPage = this.perPage;
+                let from = (page * perPage) - perPage;
+                let to = (page * perPage);
+                return posts.slice(from, to);
+            }
+        },
+        computed: {
+            displayedPosts() {
+                return this.paginate(this.posts);
+            }
+        },
+        watch: {
+            posts() {
+                this.setPages();
+            }
+        },
+        created() {
+            this.getPosts();
+        },
+        filters: {
+            trimWords(value) {
+                return value.split(" ").splice(0,20).join(" ") + '...';
+            }
+        }
+    })   
+    </script>
+</body>
+</html>
